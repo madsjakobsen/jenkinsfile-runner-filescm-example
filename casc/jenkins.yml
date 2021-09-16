@@ -1,0 +1,13 @@
+jenkins:
+unclassified:
+  globalLibraries:
+    libraries:
+      - defaultVersion: "master"
+        name: "my-library"
+        retriever:
+          legacySCM:
+            scm:
+              filesystem:
+                clearWorkspace: false
+                copyHidden: false
+                path: "libraries/my-library"

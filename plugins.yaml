@@ -1,0 +1,8 @@
+plugins:
+  - artifactId: filesystem_scm
+    source:
+      version: latest
+  - artifactId: jdk-tool
+    source:
+      version: latest
+      
